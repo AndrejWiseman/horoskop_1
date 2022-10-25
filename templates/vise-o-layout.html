@@ -1,0 +1,21 @@
+{% extends 'layout.html' 'vise-o-layout.html' %}
+
+
+{% block body %}
+  <div class="card znak-kartica ">
+
+    <div class="card-body">
+      <h5 class="card-title" style="text-align:center">{% block ime %}{% endblock %} u Horoskopu</h5>
+
+      {% block vise_o %}
+
+      {% endblock %}
+
+
+
+
+    </div>
+
+
+  </div>
+{% endblock %}

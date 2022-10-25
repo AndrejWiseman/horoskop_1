@@ -1,0 +1,121 @@
+
+
+.kontejner,  .znak-kartica {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.slika-horoskop {
+    height: 80px;
+}
+
+.naslovni-text {
+    margin: 20px 0 30px 0;
+}
+.card {
+    margin-bottom: 20px;
+}
+
+.znak-kartica {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.znak-nav .nav-link {
+    color: black;
+}
+
+.tab-pane {
+    min-height: 60vh;
+}
+
+.kartica-unutrasnja {
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.kar2 h6{
+    margin-top: 30px;
+}
+
+/* podznak kartica */
+
+.pdz-body {
+    margin: 10px auto;
+}
+.podz-datum {
+    display: flex;
+    gap: 10px;
+    margin: 30px auto;
+    justify-content: center;
+}
+
+.podz-vreme1 {
+    width: 80px;
+}
+.podz-vreme2 {
+    width: 80px;
+}
+
+.podz-vreme {
+    display: flex;
+    gap: 10px;
+    margin: 0px auto;
+    justify-content: center;
+}
+.podz-podnaslov {
+    font-size: 0.8rem;
+    text-align: center;
+}
+.podz-kart {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 0px;
+}
+.podz-text {
+    font-size: 1rem;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 1.3rem
+}
+/*-------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 440px) {
+    .nav-tabs {
+        font-size: 0.6rem;
+    }
+
+    .kontejner,  .znak-kartica {
+        width: 98%;
+        margin: 10px auto;
+    }
+
+    .card-body button{
+        padding: 9px 10px;
+    }
+
+    .card-body {
+        padding: 5px;
+    }
+
+    .card-body .nav-tabs {
+        justify-content: space-between;
+    }
+}

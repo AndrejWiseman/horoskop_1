@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class="card znak-kartica ">
+    <div class="card-body">
+      <h5 class="card-title" style="text-align:center">Tvoj podznak je: {{znak}}</h5>
+
+      {% block podznak_body %}
+      {% endblock %}
+
+
+
+      </div>
+    </div>
+  </div>
+{% endblock %}
