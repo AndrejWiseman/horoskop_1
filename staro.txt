@@ -1,4 +1,4 @@
-#### Stari main.py iz projekta flask from scratch ####
+#### Stari index.py iz projekta flask from scratch ####
 
 from flask import Flask, render_template, flash, redirect, url_for, session, request, logging
 # from data import Articles
