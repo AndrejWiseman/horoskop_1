@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, url_for
 
 from bs4 import BeautifulSoup
 import requests
@@ -18,7 +18,7 @@ def home():
 
 def horoskopScrap():
     # Ovan
-    @app.route('/ovan/')
+    @app.route('/ovan')
     def ovan():
         url = 'http://www.horoskopius.com/dnevni-horoskop/ovan/'
         url_n = 'http://www.horoskopius.com/nedeljni-horoskop/ovan/'
