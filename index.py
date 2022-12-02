@@ -80,7 +80,7 @@ def horj():
 
 
 @app.route('/vodolija')
-def horv():
+def horvo():
     return vodolija()
 
 
