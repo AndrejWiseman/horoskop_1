@@ -64,7 +64,7 @@ def horv():
     return vaga()
 
 
-@app.route('/skorpija')
+@app.route('/skorpion')
 def hors():
     return skorpion()
 
