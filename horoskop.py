@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from flask import Flask, render_template, request, url_for
 
 
+
 def ovan():
     url = 'http://www.horoskopius.com/dnevni-horoskop/ovan/'
     url_n = 'http://www.horoskopius.com/nedeljni-horoskop/ovan/'

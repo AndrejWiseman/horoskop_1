@@ -1,10 +1,10 @@
 from flask import Flask, render_template
 
-# from bs4 import BeautifulSoup
-# import requests
-# from urllib.request import Request, urlopen
-# from datetime import time, date
-# import time
+from bs4 import BeautifulSoup
+import requests
+from urllib.request import Request, urlopen
+from datetime import time, date
+import time
 from vreme import prognoza
 
 from horoskop import ovan
