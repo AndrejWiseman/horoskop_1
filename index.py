@@ -5,6 +5,7 @@ import requests
 from urllib.request import Request, urlopen
 from datetime import time, date
 import time
+from vreme import prognoza
 
 
 app = Flask(__name__)
@@ -559,6 +560,11 @@ def vise():
 @app.route('/podznak')
 def podznak():
     return render_template('podznak.html')
+
+
+@app.route('/vreme')
+def vreme():
+    return prognoza()
 
 
 
