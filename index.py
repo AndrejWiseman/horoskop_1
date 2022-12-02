@@ -19,7 +19,7 @@ def home():
 
 def horoskopScrap():
     # Ovan
-    @app.route('/ovan', methods=['GET', 'POST'])
+    @app.route('/ovan')
     def ovan():
         url = 'http://www.horoskopius.com/dnevni-horoskop/ovan/'
         url_n = 'http://www.horoskopius.com/nedeljni-horoskop/ovan/'
