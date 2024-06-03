@@ -8,17 +8,17 @@ import time
 from vreme import prognoza
 
 from horoskop import ovan
-from horoskop import bik
-from horoskop import blizanci
-from horoskop import rak
-from horoskop import lav
-from horoskop import devica
-from horoskop import vaga
-from horoskop import skorpion
-from horoskop import strelac
-from horoskop import jarac
-from horoskop import vodolija
-from horoskop import ribe
+# from horoskop import bik
+# from horoskop import blizanci
+# from horoskop import rak
+# from horoskop import lav
+# from horoskop import devica
+# from horoskop import vaga
+# from horoskop import skorpion
+# from horoskop import strelac
+# from horoskop import jarac
+# from horoskop import vodolija
+# from horoskop import ribe
 
 app = Flask(__name__)
 
@@ -34,59 +34,59 @@ def horo():
     return ovan()
 
 
-@app.route('/bik')
-def horb():
-    return bik()
-
-
-@app.route('/blizanci')
-def horbl():
-    return blizanci()
-
-
-@app.route('/rak')
-def horr():
-    return rak()
-
-
-@app.route('/lav')
-def horl():
-    return lav()
-
-
-@app.route('/devica')
-def hord():
-    return devica()
-
-
-@app.route('/vaga')
-def horv():
-    return vaga()
-
-
-@app.route('/skorpion')
-def hors():
-    return skorpion()
-
-
-@app.route('/strelac')
-def horst():
-    return strelac()
-
-
-@app.route('/jarac')
-def horj():
-    return jarac()
-
-
-@app.route('/vodolija')
-def horvo():
-    return vodolija()
-
-
-@app.route('/ribe')
-def horri():
-    return ribe()
+# @app.route('/bik')
+# def horb():
+#     return bik()
+#
+#
+# @app.route('/blizanci')
+# def horbl():
+#     return blizanci()
+#
+#
+# @app.route('/rak')
+# def horr():
+#     return rak()
+#
+#
+# @app.route('/lav')
+# def horl():
+#     return lav()
+#
+#
+# @app.route('/devica')
+# def hord():
+#     return devica()
+#
+#
+# @app.route('/vaga')
+# def horv():
+#     return vaga()
+#
+#
+# @app.route('/skorpion')
+# def hors():
+#     return skorpion()
+#
+#
+# @app.route('/strelac')
+# def horst():
+#     return strelac()
+#
+#
+# @app.route('/jarac')
+# def horj():
+#     return jarac()
+#
+#
+# @app.route('/vodolija')
+# def horvo():
+#     return vodolija()
+#
+#
+# @app.route('/ribe')
+# def horri():
+#     return ribe()
 
 
 # Vise o znaku
